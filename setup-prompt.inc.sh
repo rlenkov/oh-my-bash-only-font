@@ -1,8 +1,5 @@
 #!/usr/bin/env bash
 
-echo "$(dirname -- $0)"
-echo "${BASH_SOURCE[0]}"
-
 base_dir="$(dirname "${BASH_SOURCE[0]}")"
 
 source "${base_dir}/utils.sh"
